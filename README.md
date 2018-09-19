@@ -68,6 +68,12 @@ Deploy contracts to the "development" network:
 npm run deploy:dev
 ```
 
+If deploying with [Remix](https://remix.ethereum.org), run the following for an easy-to-import contract located in the `flattened\` directory:
+
+```
+npm run flatten
+```
+
 ### Linting
 
 Linting is ran on JavaScript and Solidity code.
