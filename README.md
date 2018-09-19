@@ -53,6 +53,7 @@ function bytes32Callback(bytes32 _requestId, bytes32 _data)
 
 - [ESLint](https://github.com/eslint/eslint)
 - [Ganache CLI](https://github.com/trufflesuite/ganache-cli)
+- [solidity-coverage](https://github.com/sc-forks/solidity-coverage)
 - [Solium](https://github.com/duaraghav8/Solium)
 - [Truffle](https://github.com/trufflesuite/truffle)
 - [truffle-flattener](https://github.com/nomiclabs/truffle-flattener)
@@ -110,6 +111,14 @@ npm run console
 
 ### Testing
 
+Running typical tests:
+
 ```
 npm test
+```
+
+Viewing Solidity test coverage:
+
+```
+npm run solcover
 ```
