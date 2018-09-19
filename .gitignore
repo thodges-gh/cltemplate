@@ -1,4 +1,3 @@
 node_modules/
 build/
-flattened/*.sol
 package-lock.json
